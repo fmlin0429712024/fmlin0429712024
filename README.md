@@ -23,9 +23,10 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 - [Clearing Operations](https://github.com/fmlin0429712024/ai-clearing-operations-poc)
 
-### Cross-industry
+### Cross-industry — Agent Harness & Governance
 
-- [Customer Care Operations](https://github.com/fmlin0429712024/customer-care-agents)
+- [Customer Care Operations — Harness & Governance Showcase](https://github.com/fmlin0429712024/customer-care-agents)
+  Application-level and platform-managed deployment patterns; OpenTelemetry tracing, PII guardrails, sessions/state, durable-memory design, A2A integration, evaluation gates, and human-in-the-loop feedback.
 
 ## Focus
 
