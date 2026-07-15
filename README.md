@@ -1,16 +1,34 @@
-## Hi there 👋
+# Forest Lin
 
-<!--
-**fmlin0429712024/fmlin0429712024** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AI Transformation Consultant & Builder | Forward Deployed Engineering**
 
-Here are some ideas to get you started:
+I turn complex, regulated operations into practical, governed Agentic AI workflows — from domain discovery and rapid POC development to evaluation, human controls, and a path to production.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My recent work centers on healthcare operations. My background also includes 25 years across enterprise architecture, industrial IoT, energy, manufacturing, technical consulting, and solution delivery.
+
+## Selected Agentic AI POCs
+
+### Healthcare
+
+- [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc)
+- [Drug Discovery Research Loop](https://github.com/fmlin0429712024/synthetic-in-silico-research-loop)
+
+### Industrial
+
+- [Operations Intelligence](https://github.com/fmlin0429712024/industrial-operations-ai-poc)
+
+### Financial Services
+
+- [Clearing Operations](https://github.com/fmlin0429712024/ai-clearing-operations-poc)
+
+### Cross-industry
+
+- [Customer Care Operations](https://github.com/fmlin0429712024/customer-care-agents)
+
+## Focus
+
+Workflow-first AI design · skills orchestration · human-in-the-loop controls · evaluation and observability · deployment-oriented engineering
+
+> These are public-safe, synthetic POCs created to communicate workflow and solution design. They contain no client data, proprietary code, or confidential materials.
+
+[LinkedIn](https://www.linkedin.com/in/forest-lin-7672186/) · [Email](mailto:fmlin429@gmail.com)
