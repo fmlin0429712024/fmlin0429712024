@@ -4,7 +4,7 @@
 
 I turn complex, regulated operations into practical, governed Agentic AI workflows — from domain discovery and rapid POC development to evaluation, human controls, and a path to production.
 
-My recent work centers on healthcare operations. My background also includes 25 years across enterprise architecture, industrial IoT, energy, manufacturing, technical consulting, and solution delivery.
+My recent work centers on healthcare operations. My background also includes 25 years across enterprise architecture, industrial IoT, energy, manufacturing, technical consulting, and solution delivery. Client deliverables and production artifacts are protected by confidentiality obligations; the public POCs below are intentionally synthetic, concise examples created to communicate my workflow and solution-design approach.
 
 ## Selected Agentic AI POCs
 
@@ -29,6 +29,6 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 Workflow-first AI design · skills orchestration · human-in-the-loop controls · evaluation and observability · deployment-oriented engineering
 
-> These are public-safe, synthetic POCs created to communicate workflow and solution design. They contain no client data, proprietary code, or confidential materials.
+> These are public-safe, synthetic POCs created to communicate workflow and solution design. They contain no client data, proprietary code, confidential materials, or client deliverables.
 
 [LinkedIn](https://www.linkedin.com/in/forest-lin-7672186/) · [Email](mailto:fmlin429@gmail.com)
