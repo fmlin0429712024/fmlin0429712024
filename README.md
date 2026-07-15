@@ -10,6 +10,7 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 ### Healthcare
 
+- [Clinical Documentation Audit](https://github.com/fmlin0429712024/clinical-documentation-audit-poc)
 - [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc)
 - [Drug Discovery Research Loop](https://github.com/fmlin0429712024/synthetic-in-silico-research-loop)
 
