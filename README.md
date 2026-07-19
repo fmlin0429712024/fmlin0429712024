@@ -11,7 +11,6 @@ My recent work centers on healthcare operations. My background also includes 25 
 ### Healthcare
 
 - [Agentic CareLoop for In-Center Hemodialysis](https://github.com/fmlin0429712024/ichd-agentic-system)
-  Full-stack physical AI in a real clinical domain — AI coordinator (Mira), mobile AGV worker (Atlas), Webots digital twin, structured clinical data model, and an Operations Canvas. Three decoupled layers designed for swap-in of real hardware and fleet-scale deployment.
 - [Clinical Documentation Audit](https://github.com/fmlin0429712024/clinical-documentation-audit-poc)
 - [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc)
 - [Formulary Exception Adjudication](https://github.com/fmlin0429712024/formulary-exception-adjudication-poc)
