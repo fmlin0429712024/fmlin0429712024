@@ -18,7 +18,7 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 ### Industrial
 
-- [Operations Intelligence](https://github.com/fmlin0429712024/industrial-operations-ai-poc)
+- [Asset Performance AI — ESP Predictive Maintenance (Upstream Oil & Gas)](https://github.com/fmlin0429712024/industrial-operations-ai-poc)
 
 ### Financial Services
 
