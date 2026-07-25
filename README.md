@@ -15,6 +15,8 @@ My recent work centers on healthcare operations. My background also includes 25 
 - [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc)
 - [Formulary Exception Adjudication](https://github.com/fmlin0429712024/formulary-exception-adjudication-poc)
 - [Drug Discovery Research Loop](https://github.com/fmlin0429712024/synthetic-in-silico-research-loop)
+- [ESKD Nursing Note Standardizer — Local Fine-Tuning](https://github.com/fmlin0429712024/domain-adaptation-lab)
+  Small local QLoRA fine-tuning showcase: the same synthetic nursing notes before and after training a 1.7B model into a consistent human-review handoff format.
 
 ### Industrial
 
@@ -29,12 +31,10 @@ My recent work centers on healthcare operations. My background also includes 25 
 - [Customer Care Operations — Harness & Governance Showcase](https://github.com/fmlin0429712024/customer-care-agents)
   Application-level and platform-managed deployment patterns; OpenTelemetry tracing, PII guardrails, sessions/state, durable-memory design, A2A integration, evaluation gates, and human-in-the-loop feedback.
 
-### Cross-industry — AI Platform & Adaptation Labs
+### Cross-industry — AI Platform
 
 - [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground)
   Secure multi-model experimentation platform showcasing Google Cloud architecture, model comparison, token and latency telemetry, access control, and operational observability.
-- [Domain Adaptation Lab](https://github.com/fmlin0429712024/domain-adaptation-lab)
-  Reference lab for evaluating prompting, RAG, and supervised fine-tuning with synthetic, domain-specific case studies.
 
 ## Focus
 
