@@ -28,8 +28,13 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 - [Customer Care Operations — Harness & Governance Showcase](https://github.com/fmlin0429712024/customer-care-agents)
   Application-level and platform-managed deployment patterns; OpenTelemetry tracing, PII guardrails, sessions/state, durable-memory design, A2A integration, evaluation gates, and human-in-the-loop feedback.
+
+### Cross-industry — AI Platform & Adaptation Labs
+
 - [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground)
   Secure multi-model experimentation platform showcasing Google Cloud architecture, model comparison, token and latency telemetry, access control, and operational observability.
+- [Domain Adaptation Lab](https://github.com/fmlin0429712024/domain-adaptation-lab)
+  Reference lab for evaluating prompting, RAG, and supervised fine-tuning with synthetic, domain-specific case studies.
 
 ## Focus
 
