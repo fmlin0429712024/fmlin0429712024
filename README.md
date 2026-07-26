@@ -33,7 +33,7 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 - [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground)
   Secure multi-model experimentation platform showcasing Google Cloud architecture, model comparison, token and latency telemetry, access control, and operational observability.
-- [Domain Adaptation Lab — Local Fine-Tuning](https://github.com/fmlin0429712024/domain-adaptation-lab)
+- [Domain Adaptation Lab — Local Fine-Tuning, MLOPS](https://github.com/fmlin0429712024/domain-adaptation-lab)
   Local QLoRA showcase: the same synthetic nursing notes before and after training a 1.7B model into a consistent human-review handoff format.
 
 ## Focus
