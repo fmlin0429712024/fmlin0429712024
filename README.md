@@ -12,6 +12,7 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 - [Agentic CareLoop for In-Center Hemodialysis (ICHD)](https://github.com/fmlin0429712024/ichd-agentic-system)
 - [In-center hemodialysis (ICHD) Clinical Documentation Audit](https://github.com/fmlin0429712024/clinical-documentation-audit-poc)
+- [ESRD Risk Adjudication: As-Is → To-Be](https://github.com/fmlin0429712024/esrd-risk-adjudication-evolution)
 - [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc)
 - [Formulary Exception Adjudication](https://github.com/fmlin0429712024/formulary-exception-adjudication-poc)
 - [Drug Discovery Research Loop](https://github.com/fmlin0429712024/synthetic-in-silico-research-loop)
