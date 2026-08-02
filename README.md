@@ -34,10 +34,8 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 - [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground)
   Secure multi-model experimentation platform showcasing Google Cloud architecture, model comparison, token and latency telemetry, access control, and operational observability.
-- [Domain Adaptation Lab — Part 1: Local Fine-Tuning (MLOps)](https://github.com/fmlin0429712024/domain-adaptation-lab)
-  Local QLoRA showcase: the same synthetic nursing notes before and after training a 1.7B model into a consistent human-review handoff format.
-- [Domain Adaptation Lab — Part 2: Inference & Serving (LLMOps)](https://github.com/fmlin0429712024/domain-adaptation-inference)
-  Deploying that same fine-tuned adapter through a real inference stack — local serving, adapter/version management, and a model-repository design for managing multiple model types — the engineering layer between a trained model and a usable service.
+- [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab)
+  End-to-end local model lifecycle: QLoRA fine-tuning and held-out evaluation on synthetic nursing notes, a promotion/registry gate, Ollama serving, and a conceptual map to what Vertex AI Pipelines/Kubeflow would automate on top.
 - [Physical AI Lab — Imitation Learning (MLOps)](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
   Physical AI Imitation Learning showcase.
 
