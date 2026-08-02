@@ -25,19 +25,22 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 - [Clearing Operations](https://github.com/fmlin0429712024/ai-clearing-operations-poc)
 
-### Cross-industry — Agent Harness & Governance
+### Cross-industry — AI Operations Lifecycle (AgenticOps / LLMOps / MLOps)
 
-- [Customer Care Operations — Harness & Governance Showcase](https://github.com/fmlin0429712024/customer-care-agents)
+Three labs, one shared lifecycle shape — register, deploy, monitor, rollback. Each demonstrates a
+different layer: which asset changes, and how it's evaluated.
+
+- **AgenticOps** — [Customer Care Operations — Harness & Governance Showcase](https://github.com/fmlin0429712024/customer-care-agents)
   Application-level and platform-managed deployment patterns; OpenTelemetry tracing, PII guardrails, sessions/state, durable-memory design, A2A integration, evaluation gates, and human-in-the-loop feedback.
-
-### Cross-industry — AI Platform & Adaptation Labs
-
-- [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground)
+- **LLMOps** — [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground)
   Secure multi-model experimentation platform showcasing Google Cloud architecture, model comparison, token and latency telemetry, access control, and operational observability.
-- [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab)
+- **MLOps** — [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab)
   End-to-end local model lifecycle: QLoRA fine-tuning and held-out evaluation on synthetic nursing notes, a promotion/registry gate, Ollama serving, and a conceptual map to what Vertex AI Pipelines/Kubeflow would automate on top.
-- [Physical AI Lab — Imitation Learning (MLOps)](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
-  Physical AI Imitation Learning showcase.
+
+### Exploratory — outside the system above
+
+- [Physical AI Lab — Imitation Learning](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
+  MuJoCo robot-arm pick-and-place via ACT (imitation learning). Data collection and training are done; evaluation/deployment is in progress. A different modality of the same MLOps question, not folded into the lifecycle set above until it closes the loop.
 
 ## Focus
 
