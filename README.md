@@ -37,7 +37,7 @@ different layer: which asset changes, and how it's evaluated.
 - **MLOps** — [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab)
   End-to-end local model lifecycle: QLoRA fine-tuning and held-out evaluation on synthetic nursing notes, a promotion/registry gate, Ollama serving, and a conceptual map to what Vertex AI Pipelines/Kubeflow would automate on top.
 
-### Exploratory — Palantir Foundry / Ontology, and other one-offs outside the system above
+### Palantir Foundry / Ontology, and Other initatives
 
 - [Physical AI Lab — Imitation Learning](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
   MuJoCo robot-arm pick-and-place via ACT (imitation learning). Data collection and training are done; evaluation/deployment is in progress. A different modality of the same MLOps question, not folded into the lifecycle set above until it closes the loop.
