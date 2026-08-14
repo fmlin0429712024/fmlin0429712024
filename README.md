@@ -39,11 +39,10 @@ different layer: which asset changes, and how it's evaluated.
 
 ### Palantir Foundry / Ontology, and Other initatives
 
-- [Physical AI Lab — Imitation Learning](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
-  MuJoCo robot-arm pick-and-place via ACT (imitation learning). Data collection and training are done; evaluation/deployment is in progress. A different modality of the same MLOps question, not folded into the lifecycle set above until it closes the loop.
 - [Foundry Ontology Lab — Order Operations After a Merger](https://github.com/fmlin0429712024/foundry-poc)
   Hands-on with Palantir Foundry's core architecture: CLI/SDK-first ingestion and PySpark transforms into a unified dataset, an Ontology object type backed by it, and a live, governed `Assign` action (writeback-enabled edit layer, verified end-to-end via SDK). First in a set of Foundry Foundations labs — more to follow.
-
+- [Physical AI Lab — Imitation Learning](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
+  MuJoCo robot-arm pick-and-place via ACT (imitation learning). Data collection and training are done; evaluation/deployment is in progress. A different modality of the same MLOps question, not folded into the lifecycle set above until it closes the loop.
 ## Focus
 
 Workflow-first AI design · skills orchestration · human-in-the-loop controls · evaluation and observability · deployment-oriented engineering
