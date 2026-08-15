@@ -6,6 +6,20 @@ I turn complex, regulated operations into practical, governed Agentic AI workflo
 
 My recent work centers on healthcare operations. My background also includes 25 years across enterprise architecture, industrial IoT, energy, manufacturing, technical consulting, and solution delivery. Client deliverables and production artifacts are protected by confidentiality obligations; the public POCs below are intentionally synthetic, concise examples created to communicate my workflow and solution-design approach.
 
+## DeepSeek Harness Plugins
+
+I build vertical solutions on [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) — a plugin-composable agent platform where every surface (host tools, browser UI, agent skills) is a Cordis bundle. My plugins package governed, fully traceable domain workflows that run on the stock DSH GUI with zero UI changes.
+
+| Plugin | What it does | Status |
+| --- | --- | --- |
+| [dsh-cdi-plugin](https://github.com/fmlin0429712024/dsh-cdi-plugin) | Synthetic **CDI (clinical documentation integrity) auditing** for DSH — SQLite-backed deterministic SOP-rule evaluation, packaged agent skills, bundled (fictional) gold sets. Every finding stays `requires_human_review` and routes to a human reviewer. | ✅ v0.1.0 · runs on DSH `0.1.0-rc.6` |
+| dsh-cdi-gui *(planned)* | Client-half UI for the CDI plugin: audit-finding cards, evidence/rule detail panel, human-review workbench — enterprise domain UI inside the DSH shell. | 🔜 Step 2 |
+
+```sh
+# try it — synthetic data only, never real patient data
+dsh plugin --profile web add dsh-cdi-plugin
+```
+
 ## Selected Agentic AI POCs
 
 ### Healthcare
