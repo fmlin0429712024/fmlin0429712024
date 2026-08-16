@@ -1,24 +1,40 @@
 # Forest Lin
 
-**AI Transformation Consultant & Builder | Forward Deployed Engineering**
+**Founder of LinkHealth · AI Transformation Consultant & Builder**
 
-I turn complex, regulated operations into practical, governed Agentic AI workflows — from domain discovery and rapid POC development to evaluation, human controls, and a path to production.
+I'm building **LinkHealth** — agent-driven, human-governed AI services for
+healthcare operations — on DeepSeek Harness, where every capability is a plugin
+and every product is a profile. 25 years across enterprise architecture,
+industrial IoT, energy, manufacturing, technical consulting, and solution
+delivery. Client deliverables are protected by confidentiality obligations; the
+public work below is intentionally synthetic and concise, created to
+communicate workflow and solution-design approach.
 
-My recent work centers on healthcare operations. My background also includes 25 years across enterprise architecture, industrial IoT, energy, manufacturing, technical consulting, and solution delivery. Client deliverables and production artifacts are protected by confidentiality obligations; the public POCs below are intentionally synthetic, concise examples created to communicate my workflow and solution-design approach.
+## LinkHealth — the product (in progress)
 
-## DeepSeek Harness Plugins
+Agent-driven services for healthcare operations. Every finding stays
+`requires_human_review`; everything is auditable; all data is synthetic.
 
-I build vertical solutions on [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) — a plugin-composable agent platform where every surface (host tools, browser UI, agent skills) is a Cordis bundle. My plugins package governed, fully traceable domain workflows that run on the stock DSH GUI with zero UI changes.
+| Capability | What it does | Status |
+| --- | --- | --- |
+| **Triage** | Classifies, scores, and routes inbound business enquiries — with a PHI guardrail (no auto-dispatch when patient data is involved) | ✅ running |
+| **CDI Audit** | Clinical-documentation integrity auditing against deterministic SOP rules (SQLite-backed) | ✅ running |
+
+**Architecture — capability as plugin, product as profile:**
+
+- One DSH installation, many profiles = one install, many products
+- `web` (clean dev workbench) vs `linkhealth` (the product): plugins are shared
+  assets, referenced not copied
+- The profile is the deployment unit: the same files run locally and on a cloud VM
+
+## Technology assets (open)
+
+The plugins behind LinkHealth, as reference implementations:
 
 | Plugin | What it does | Status |
 | --- | --- | --- |
-| [dsh-cdi-plugin](https://github.com/fmlin0429712024/dsh-cdi-plugin) | Synthetic **CDI (clinical documentation integrity) auditing** for DSH — SQLite-backed deterministic SOP-rule evaluation, packaged agent skills, bundled (fictional) gold sets. Every finding stays `requires_human_review` and routes to a human reviewer. | ✅ v0.1.0 · runs on DSH `0.1.0-rc.6` |
-| dsh-cdi-gui *(planned)* | Client-half UI for the CDI plugin: audit-finding cards, evidence/rule detail panel, human-review workbench — enterprise domain UI inside the DSH shell. | 🔜 Step 2 |
-
-```sh
-# try it — synthetic data only, never real patient data
-dsh plugin --profile web add dsh-cdi-plugin
-```
+| [linkhealth-triage](https://github.com/fmlin0429712024/linkhealth-triage) | The **triage** capability — skill, spokes, and a deterministic PHI guardrail — packaged for Claude Code and DSH | ✅ running |
+| [dsh-cdi-plugin](https://github.com/fmlin0429712024/dsh-cdi-plugin) | The **CDI audit** capability — SQLite-backed deterministic SOP-rule evaluation, packaged agent skills, bundled (fictional) gold sets. Every finding stays `requires_human_review` and routes to a human reviewer. | ✅ v0.1.0 · runs on DSH `0.1.0-rc.6` |
 
 ## Selected Agentic AI POCs
 
@@ -51,12 +67,11 @@ different layer: which asset changes, and how it's evaluated.
 - **MLOps** — [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab)
   End-to-end local model lifecycle: QLoRA fine-tuning and held-out evaluation on synthetic nursing notes, a promotion/registry gate, Ollama serving, and a conceptual map to what Vertex AI Pipelines/Kubeflow would automate on top.
 
-### Palantir Foundry / Ontology, and Other initatives
+### Exploratory — outside the system above
 
-- [Foundry Ontology Lab — Order Operations After a Merger](https://github.com/fmlin0429712024/foundry-poc)
-  Hands-on with Palantir Foundry's core architecture: CLI/SDK-first ingestion and PySpark transforms into a unified dataset, an Ontology object type backed by it, and a live, governed `Assign` action (writeback-enabled edit layer, verified end-to-end via SDK). First in a set of Foundry Foundations labs — more to follow.
 - [Physical AI Lab — Imitation Learning](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
   MuJoCo robot-arm pick-and-place via ACT (imitation learning). Data collection and training are done; evaluation/deployment is in progress. A different modality of the same MLOps question, not folded into the lifecycle set above until it closes the loop.
+
 ## Focus
 
 Workflow-first AI design · skills orchestration · human-in-the-loop controls · evaluation and observability · deployment-oriented engineering
