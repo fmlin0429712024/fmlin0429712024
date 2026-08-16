@@ -21,18 +21,20 @@ An AI service company for healthcare operations, built as composable plugins on 
 
 | Project | What it is | Area |
 | --- | --- | --- |
-| [Agentic CareLoop for ICHD](https://github.com/fmlin0429712024/ichd-agentic-system) | Agentic care coordination for in-center hemodialysis | Healthcare |
-| [ICHD Clinical Documentation Audit](https://github.com/fmlin0429712024/clinical-documentation-audit-poc) | The audit pipeline behind CDI Audit, as a standalone POC | Healthcare |
-| [ESRD Risk Adjudication](https://github.com/fmlin0429712024/esrd-risk-adjudication-evolution) | As-is → to-be risk adjudication workflow | Healthcare |
-| [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc) | Prior-auth process automation | Healthcare |
-| [Formulary Exception Adjudication](https://github.com/fmlin0429712024/formulary-exception-adjudication-poc) | Formulary exception decisions | Healthcare |
+| [Agentic CareLoop for ICHD](https://github.com/fmlin0429712024/ichd-agentic-system) | Agentic care coordination loop for in-center hemodialysis | Healthcare |
+| [ICHD Clinical Documentation Audit](https://github.com/fmlin0429712024/clinical-documentation-audit-poc) | Governed clinical-documentation audit pipeline — the engine behind CDI Audit | Healthcare |
+| [ESRD Risk Adjudication](https://github.com/fmlin0429712024/esrd-risk-adjudication-evolution) | As-is → to-be risk adjudication workflow evolution | Healthcare |
+| [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc) | Prior-auth process automation in health plans | Healthcare |
+| [Formulary Exception Adjudication](https://github.com/fmlin0429712024/formulary-exception-adjudication-poc) | Formulary exception decision workflow | Healthcare |
 | [Drug Discovery Research Loop](https://github.com/fmlin0429712024/synthetic-in-silico-research-loop) | Synthetic in-silico research loop | Healthcare |
 | [Asset Performance AI](https://github.com/fmlin0429712024/industrial-operations-ai-poc) | ESP predictive maintenance (upstream oil & gas) | Industrial |
 | [Clearing Operations](https://github.com/fmlin0429712024/ai-clearing-operations-poc) | Financial clearing workflow automation | Financial |
-| [Customer Care Agents](https://github.com/fmlin0429712024/customer-care-agents) | AgenticOps — harness & governance showcase | Cross-industry |
-| [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground) | LLMOps — secure multi-model experimentation platform | Cross-industry |
-| [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab) | MLOps — QLoRA fine-tuning + evaluation + serving | Cross-industry |
-| [Physical AI Lab](https://github.com/fmlin0429712024/mujoco-robot-pipeline) | MuJoCo imitation learning (ACT) | Exploratory |
+| [Customer Care Agents](https://github.com/fmlin0429712024/customer-care-agents) | AgenticOps: OTel tracing, PII guardrails, durable memory, A2A, evaluation gates, human-in-the-loop | Cross-industry |
+| [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground) | LLMOps: secure multi-model platform, token/latency telemetry, access control, observability (GCP) | Cross-industry |
+| [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab) | MLOps: QLoRA fine-tuning, held-out evaluation, promotion gate, Ollama serving | Cross-industry |
+| [Physical AI Lab](https://github.com/fmlin0429712024/mujoco-robot-pipeline) | MuJoCo imitation learning (ACT) robot pick-and-place | Exploratory |
+
+The three cross-industry labs share one lifecycle shape — register, deploy, monitor, rollback — each demonstrating a different layer of the same question: which asset changes, and how it's evaluated.
 
 ## Focus
 
