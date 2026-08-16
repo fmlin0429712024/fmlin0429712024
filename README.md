@@ -15,7 +15,7 @@ An AI service company for healthcare operations, built as composable plugins on 
 | Capability | What it does | Status |
 | --- | --- | --- |
 | **Triage** · [repo](https://github.com/fmlin0429712024/linkhealth-triage) | Classifies, scores, and routes inbound business enquiries — with a PHI guardrail (no auto-dispatch on patient data) | ✅ running |
-| **CDI Audit** · [repo](https://github.com/fmlin0429712024/dsh-cdi-plugin) | Clinical-documentation integrity auditing against deterministic SOP rules (SQLite-backed) | ✅ running |
+| **Clinical Audit** · [repo](https://github.com/fmlin0429712024/dsh-cdi-plugin) | Clinical-documentation integrity auditing against deterministic SOP rules (SQLite-backed) | ✅ running |
 
 ## Other work — selected showcases
 
