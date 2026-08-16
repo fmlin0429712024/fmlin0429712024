@@ -1,19 +1,16 @@
 # Forest Lin
 
-**Founder of LinkHealth · AI Transformation Consultant & Builder**
+**AI Transformation Consultant & Builder | Forward Deployed Engineering**
 
-I build agent-driven, human-governed AI services for healthcare operations on
-DeepSeek Harness — where every capability is a plugin and every product is a
-profile. 25 years across enterprise architecture, industrial IoT, energy,
-manufacturing, and consulting. Public work below is synthetic and intentionally
-simple; client deliverables stay confidential.
+I turn complex, regulated operations into practical, governed Agentic AI workflows — from domain discovery and rapid POC development to evaluation, human controls, and a path to production.
+
+My recent work centers on healthcare operations. My background also includes 25 years across enterprise architecture, industrial IoT, energy, manufacturing, technical consulting, and solution delivery. Client deliverables and production artifacts are protected by confidentiality obligations; the public POCs below are intentionally synthetic, concise examples created to communicate my workflow and solution-design approach.
+
+**Currently building:** LinkHealth — an AI service company for healthcare operations, built as composable plugins on DeepSeek Harness (every capability is a plugin, every product is a profile). See the featured showcase below.
 
 ## Featured — LinkHealth VAS Showcase
 
-An AI service company for healthcare operations, built as composable plugins on
-DeepSeek Harness. Big picture: every capability is a plugin, every product is a
-profile, and the same files run locally and on a cloud VM. Details live in each
-capability's repo.
+An AI service company for healthcare operations, built as composable plugins on DeepSeek Harness. Big picture: every capability is a plugin, every product is a profile, and the same files run locally and on a cloud VM. Details live in each capability's repo.
 
 | Capability | What it does | Status |
 | --- | --- | --- |
