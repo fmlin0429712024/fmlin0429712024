@@ -19,6 +19,8 @@ An AI service company for healthcare operations, built as composable plugins on 
 
 ## Other work — selected showcases
 
+Depth by area: **healthcare operations (6)** — deepest and most recent; cross-industry lifecycle labs (3); industrial (1); financial (1); Palantir Foundry below.
+
 | Project | What it is | Area |
 | --- | --- | --- |
 | [Agentic CareLoop for ICHD](https://github.com/fmlin0429712024/ichd-agentic-system) | Agentic care coordination loop for in-center hemodialysis | Healthcare |
@@ -32,9 +34,15 @@ An AI service company for healthcare operations, built as composable plugins on 
 | [Customer Care Agents](https://github.com/fmlin0429712024/customer-care-agents) | AgenticOps: OTel tracing, PII guardrails, durable memory, A2A, evaluation gates, human-in-the-loop | Cross-industry |
 | [LLM Platform Engineering Lab](https://github.com/fmlin0429712024/LLM-Playground) | LLMOps: secure multi-model platform, token/latency telemetry, access control, observability (GCP) | Cross-industry |
 | [ESKD Fine-Tuning & MLOps Lab](https://github.com/fmlin0429712024/domain-adaptation-lab) | MLOps: QLoRA fine-tuning, held-out evaluation, promotion gate, Ollama serving | Cross-industry |
-| [Physical AI Lab](https://github.com/fmlin0429712024/mujoco-robot-pipeline) | MuJoCo imitation learning (ACT) robot pick-and-place | Exploratory |
 
 The three cross-industry labs share one lifecycle shape — register, deploy, monitor, rollback — each demonstrating a different layer of the same question: which asset changes, and how it's evaluated.
+
+### Palantir Foundry / Ontology, and Other initiatives
+
+- [Foundry Ontology Lab — Order Operations After a Merger](https://github.com/fmlin0429712024/foundry-poc)
+  Hands-on with Palantir Foundry's core architecture: CLI/SDK-first ingestion and PySpark transforms into a unified dataset, an Ontology object type backed by it, and a live, governed `Assign` action (writeback-enabled edit layer, verified end-to-end via SDK). First in a set of Foundry Foundations labs — more to follow.
+- [Physical AI Lab — Imitation Learning](https://github.com/fmlin0429712024/mujoco-robot-pipeline)
+  MuJoCo robot-arm pick-and-place via ACT (imitation learning). Data collection and training are done; evaluation/deployment is in progress. A different modality of the same MLOps question, not folded into the lifecycle set above until it closes the loop.
 
 ## Focus
 
