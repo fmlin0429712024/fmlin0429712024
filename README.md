@@ -10,12 +10,15 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 ## Featured — LinkHealth VAS Showcase
 
-An AI service company for healthcare operations, built as composable plugins on DeepSeek Harness. Big picture: every capability is a plugin, every product is a profile, and the same files run locally and on a cloud VM. Details live in each capability's repo.
+An AI service company for healthcare operations, built as composable plugins on DeepSeek Harness. Big picture: every capability is a plugin, every product is a profile, and the same files run locally and on a cloud VM.
+
+**🔗 Source of truth: [linkhealth-dsh-platform](https://github.com/fmlin0429712024/linkhealth-dsh-platform)** — the monorepo that owns **all** LinkHealth DSH plugins going forward. Every push is CI-tested (unit + contract + headless E2E gate) and auto-deployed to the GCP VM. The earlier capability repos are early exploration, kept for reference only.
 
 | Capability | What it does | Status |
 | --- | --- | --- |
-| **Triage** · [repo](https://github.com/fmlin0429712024/linkhealth-triage) | Classifies, scores, and routes inbound business enquiries — with a PHI guardrail (no auto-dispatch on patient data) | ✅ running |
-| **Clinical Audit** · [repo](https://github.com/fmlin0429712024/dsh-cdi-plugin) | Clinical-documentation integrity auditing against deterministic SOP rules (SQLite-backed) | ✅ running |
+| **Triage** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-triage-plugin) | Classifies, scores, and routes inbound business enquiries — with a PHI guardrail (no auto-dispatch on patient data) | ✅ running |
+| **Clinical Audit (CDI)** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-cdi-plugin) | Clinical-documentation integrity auditing against deterministic SOP rules (SQLite-backed) | ✅ running |
+| **Front Door (GUI)** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-linkhealth-gui-plugin) | Branded DSH web front door — capability launcher (Triage & CDI Audit cards) | ✅ running |
 
 ## Other work — selected showcases
 
