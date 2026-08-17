@@ -20,7 +20,7 @@ An AI service company for healthcare operations, built as composable plugins on 
 | **Clinical Audit (CDI)** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-cdi-plugin) | Clinical-documentation integrity auditing against deterministic SOP rules (SQLite-backed) | ✅ running |
 | **Front Door (GUI)** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-linkhealth-gui-plugin) | Branded DSH web front door — capability launcher (Triage & CDI Audit cards) | ✅ running |
 
-## Other work — selected showcases
+## Selected showcases
 
 Depth by area: **healthcare operations (6)** — deepest and most recent; cross-industry lifecycle labs (3); industrial (1); financial (1); Palantir Foundry below.
 
