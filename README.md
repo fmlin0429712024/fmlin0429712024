@@ -18,6 +18,7 @@ An AI service company for healthcare operations, built as composable plugins on 
 | --- | --- | --- |
 | **Triage** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-triage-plugin) | Classifies, scores, and routes inbound business enquiries — with a PHI guardrail (no auto-dispatch on patient data) | ✅ running |
 | **Clinical Audit (CDI)** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-cdi-plugin) | Clinical-documentation integrity auditing against deterministic SOP rules (SQLite-backed) | ✅ running |
+| **Vision Insights** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-vision-insights-plugin) | Reads structured events (zone occupancy, retail item add/remove) from an OpenVINO edge app over HTTP — deterministic facts, LLM narrates only | ✅ running |
 | **Front Door (GUI)** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-linkhealth-gui-plugin) | Branded DSH web front door — capability launcher (Triage & CDI Audit cards) | ✅ running |
 
 ## Selected showcases
