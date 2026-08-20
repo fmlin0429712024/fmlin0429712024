@@ -8,7 +8,7 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 **Currently building:** LinkHealth — an AI service company for healthcare operations, built as composable plugins on DeepSeek Harness (every capability is a plugin, every product is a profile). See the featured showcase below.
 
-## Featured — LinkHealth VAS Showcase
+## Featured — LinkHealth VAS Showcase on DeepSeek Harness (DSH)
 
 An AI service company for healthcare operations, built as composable plugins on DeepSeek Harness. Big picture: every capability is a plugin, every product is a profile, and the same files run locally and on a cloud VM.
 
