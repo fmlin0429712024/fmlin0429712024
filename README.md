@@ -10,9 +10,13 @@ My recent work centers on healthcare operations. My background also includes 25 
 
 ## Featured — LinkHealth VAS Showcase on DeepSeek Harness (DSH)
 
-An AI service company for healthcare operations, built as composable plugins on DeepSeek Harness. Big picture: every capability is a plugin, every product is a profile, and the same files run locally and on a cloud VM.
+An AI service company for healthcare operations, built as composable plugins on DeepSeek Harness. Big picture: every capability is a plugin, every **product** is a DSH **profile** — a specific bundle of plugins wired to one interaction model. Two profile categories:
 
 **🔗 Source of truth: [linkhealth-dsh-platform](https://github.com/fmlin0429712024/linkhealth-dsh-platform)** — the monorepo that owns **all** LinkHealth DSH plugins going forward. Every push is CI-tested (unit + contract + headless E2E gate) and auto-deployed to the GCP VM. The earlier capability repos are early exploration, kept for reference only.
+
+### LinkHealth — web-interface profile
+
+Chat-driven: a person opens the DSH web UI and talks to the agent.
 
 | Capability | What it does | Status |
 | --- | --- | --- |
@@ -21,6 +25,10 @@ An AI service company for healthcare operations, built as composable plugins on 
 | **Vision Insights** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-vision-insights-plugin) | Reads structured events (zone occupancy, retail item add/remove) from an OpenVINO edge app over HTTP — deterministic facts, LLM narrates only | ✅ running |
 | **Front Door (GUI)** · [plugin](https://github.com/fmlin0429712024/linkhealth-dsh-platform/tree/main/plugins/dsh-linkhealth-gui-plugin) | Branded DSH web front door — capability launcher (Triage & CDI Audit cards) | ✅ running |
 | **Vision Multimodality** · [integration](https://github.com/fmlin0429712024/linkhealth-dsh-platform#vision-ai-two-integration-patterns-one-future-direction) | Gives the text-only main model image understanding by adopting an existing DSH-ecosystem plugin, configured to call a self-hosted Phi-3.5-vision model (OpenVINO, local inference) — zero custom plugin code, config only | ✅ running |
+
+### LinkHealth Headless — event/schedule-triggered profile *(planned)*
+
+No chat UI — workflows and agents triggered by events or a schedule instead of a person typing a message (e.g. automated monitoring, scheduled audits, event-driven alerts). Same plugin architecture, a different profile. Not yet built — no plugin developed for it yet; placeholder for what's next.
 
 ## Selected showcases
 
