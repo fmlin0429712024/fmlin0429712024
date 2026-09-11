@@ -33,7 +33,7 @@ Depth by area: **healthcare operations (6)** — deepest and most recent; cross-
 | [Agentic CareLoop for ICHD](https://github.com/fmlin0429712024/ichd-agentic-system) | Agentic care coordination loop for in-center hemodialysis | Healthcare |
 | [ICHD Clinical Documentation Audit](https://github.com/fmlin0429712024/clinical-documentation-audit-poc) | Governed clinical-documentation audit pipeline — the engine behind CDI Audit | Healthcare |
 | [ESRD Risk Adjudication](https://github.com/fmlin0429712024/esrd-risk-adjudication-evolution) | As-is → to-be risk adjudication workflow evolution | Healthcare |
-| [Prior Authorization Operations](https://github.com/fmlin0429712024/healthplan-process-poc) | Prior-auth process automation in health plans | Healthcare |
+| [Benefit Coverage Navigator](https://github.com/fmlin0429712024/healthplan-process-poc) | Benefit-coverage lookup pipeline (medical/dental/vision/pharmacy) with member-support chatbot and multi-agent research | Healthcare |
 | [Formulary Exception Adjudication](https://github.com/fmlin0429712024/formulary-exception-adjudication-poc) | Formulary exception decision workflow | Healthcare |
 | [Drug Discovery Research Loop](https://github.com/fmlin0429712024/synthetic-in-silico-research-loop) | Synthetic in-silico research loop | Healthcare |
 | [Asset Performance AI](https://github.com/fmlin0429712024/industrial-operations-ai-poc) | ESP predictive maintenance (upstream oil & gas) | Industrial |
